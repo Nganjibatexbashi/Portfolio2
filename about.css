@@ -209,9 +209,94 @@ body{
 
 .hero img{
     width: 400px; 
-    margin: 90px 0px 90px 300px;
+    margin: 140px 0px 30px 350px;
+    text-align: center;
 }
 .paragraph{
-    margin: 0px 400px 0px 200px;
+    box-sizing: border-box;
+    margin: 50px 300px 50px 200px;
+    border: 1px solid white;
+    color: gray;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.fotter{
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    text-align: center;
+    
+}
+.louis{
+    text-align: center;
+    color: grey;
+    margin-bottom: 40px;
+}
+.boddy_one{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.boddy_one hr{
+    background: red;
+    margin: 4px 0px 0px 0px;
+    margin-top: 20px;
+}
+.boddy_two{
+    text-align: center;
+    font-size: 10pxpx;
+    color: grey;
+}
+.boddy_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.bod_one{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.bod_one hr{
+    background: red;
+    
+   margin-top: 20px;
+}
+.bod_two{
+    text-align: center;
+    color: grey;
+}
+.bod_three{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.partner{
+    display: none;
+}
+.ignite{
+   display: none;
+}
+.foot_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #515151;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.loogo{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 }
