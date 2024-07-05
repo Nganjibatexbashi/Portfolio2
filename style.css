@@ -6,10 +6,10 @@
 body{
     padding: 1px 2px;
 }
-@media(min-width:375px) and (max-width:768px) {
-    haeder{
-        margin: 0 1px 1px;
-        
+@media(min-width:375px) and (max-width:768px){
+    header{
+        margin: 0 0 40px;
+    
     }
     .menu{
         display: none;
@@ -29,10 +29,8 @@ body{
     }
 
     .home{
-        background-image: url('/some_useful_images/home-background.png');
+       background-image: url('/some_useful_images/home-background.png');
         background-size: cover;
-        
-        
     }
  
     nav img{
@@ -267,6 +265,14 @@ body{
     display: flex;
     margin-top: 30px;
     margin-bottom: 40px;
+  }
+  .fotter{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    font-size: 16px;
   }
  
 }    

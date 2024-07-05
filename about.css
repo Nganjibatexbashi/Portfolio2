@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px 20px;
+}
+@media(min-width:375px) and (max-width:768px){
+    header{
+        margin: 0 0 40px;
+    }
+    .heada{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .intro{
+        background-image: url('some_useful_images/home-background.png');
+        background-size: cover;
+    }
+    .batex img{
+        width: 140px;
+        height: 40px;
+        margin-left: 100px;
+        
+    }
+    .hero img{
+        width: 290px;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 100px;
+        margin-top: 50px;
+        
+
+    }
+    .paragraph{
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: grey;
+    }
+    .fotter{
+        justify-content: center;
+        align-items: center;
+        color: grey;
+        
+    }
+    .fotter{
+        background-color: gainsboro;
+        background-size: cover;
+    }
+    
+    .boddy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+    .boddy_one{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #515151;
+    }
+    .boddy_one hr{
+        background: red;
+        margin: 4px 130px 0px 130px;
+        margin-top: 20px;
+    }
+    .bb{
+        justify-content: center;
+        align-items: center;
+        margin-left: 39px;
+    }
+    .boddy_two{
+        margin: 0px 0px 30px 0px;
+        font-size: 9px;
+        font-weight: bold;
+        color: #515151;
+    }
+    .bod{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bod_one{
+        margin: 20px 0px 30px 0px;
+        font-size: 23px;
+        font-weight: bold;
+        color: grey;
+    }
+    .bod_two{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: #515151;
+    }
+    .two img{
+        width: 60px;
+        height: 50px;
+    }
+    .ignite{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .ppp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .nnn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .foot_one hr{
+        background: red;
+        margin: 4px 0px 0px 0px;
+        margin-top: 20px;
+    }
+    .partner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: whitesmoke;
+    }
+    .foot_two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .loogo img{
+        width: 120px;
+        height: 35px;
+    }
+    .ttextt{
+        font-size: 12px;
+        color: grey;
+    }
+    .baba{
+        background-color: #515151;
+    }
+
+    .header_menu{
+        display: none;
+    }
+}
+
+@media  only screen and (min-width:768px) {
+ .heada h2{
+    display: none;
+ }
+
+ .batex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .batex img{
+    width: 10%;
+ }
+
+ .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin-right: 400px;
+ }
+ .home{
+    background-image: url('/image/Image/desk.png');
+     background-size: cover;
+   
+ }
+
+
+ .menu li a {
+    text-decoration: none;
+ }
+
+ .hero{
+    width: 80%;
+ }
+
+ .two img{
+    width: 60px;
+    height: 50px;
+}
+
+.hero img{
+    width: 400px; 
+    margin: 140px 0px 30px 350px;
+    text-align: center;
+}
+.paragraph{
+    box-sizing: border-box;
+    margin: 50px 300px 50px 200px;
+    border: 1px solid white;
+    color: gray;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.fotter{
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    text-align: center;
+    
+}
+.louis{
+    text-align: center;
+    color: grey;
+    margin-bottom: 40px;
+}
+.boddy_one{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.boddy_one hr{
+    background: red;
+    margin: 4px 0px 0px 0px;
+    margin-top: 20px;
+}
+.boddy_two{
+    text-align: center;
+    font-size: 10pxpx;
+    color: grey;
+}
+.boddy_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.bod_one{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.bod_one hr{
+    background: red;
+    
+   margin-top: 20px;
+}
+.bod_two{
+    text-align: center;
+    color: grey;
+}
+.bod_three{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.partner{
+    display: none;
+}
+.ignite{
+   display: none;
+}
+.foot_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #515151;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.loogo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+}
